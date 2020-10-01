@@ -68,8 +68,8 @@ public class ClockView extends View {
         drawCenter(canvas,false);
         drawNumeral(canvas,true);
         drawNumeral(canvas,false);
-        drawHand(canvas,MainActivity.sec);
-        drawMinHand(canvas,MainActivity.min);
+        drawHand(canvas,splashscreen.sec);
+        drawMinHand(canvas,splashscreen.min);
 
 
        // postInvalidateDelayed(500);
